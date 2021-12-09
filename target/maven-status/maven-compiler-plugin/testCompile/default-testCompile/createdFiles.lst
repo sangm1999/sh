@@ -1,0 +1,8 @@
+com\bank\scripts\TestServices.class
+com\bank\generics\WebdriverActions.class
+com\bank\scripts\TestNewsPage.class
+com\bank\generics\IAutoConstants.class
+com\bank\pages\HomePage.class
+com\bank\scripts\TestLoginPage.class
+com\bank\generics\BaseTest.class
+com\bank\pages\NewsPage.class

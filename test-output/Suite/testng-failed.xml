@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="services" value="Check Balances"/>
+  <parameter name="onlineserv" value="Bill Pay"/>
+  <test name="Test(failed)">
+    <parameter name="services" value="Check Balances"/>
+    <parameter name="onlineserv" value="Bill Pay"/>
+    <classes>
+      <class name="com.bank.scripts.TestServices">
+        <methods>
+          <include name="testATMServices" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bank.scripts.TestServices -->
+      <class name="com.bank.scripts.TestLoginPage">
+        <methods>
+          <include name="openApp"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.bank.scripts.TestLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
